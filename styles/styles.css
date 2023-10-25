@@ -1,0 +1,93 @@
+
+body{
+    background-color: rgba(12, 8, 24, 1);
+}
+
+.grey{
+    background-color: grey;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-size: xx-large;
+}
+.scaled-image {
+    width: 30px;
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+.quote{
+    margin-top: 20px;
+    margin-bottom:  40px;
+    margin-left: -20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.subtitle{
+    color: white;
+    font-family: 'EB Garamond';
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /* Adjust the thickness as needed */
+}
+
+.paragraph{
+    color: white;
+    font-family: 'EB Garamond';
+    font-size: 18px;
+}
+
+.topQuote{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.botQuote{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.citation{
+    color: white;
+    display: flex;
+    justify-content:right;
+    padding-right: 20px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: -20px;
+
+}
+
+.center{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: -15px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.book{
+    font-style: italic;
+}
+
+.headerText{
+    font-size: 20px;
+}
